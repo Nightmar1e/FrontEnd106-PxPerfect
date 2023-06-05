@@ -1,0 +1,44 @@
+aside {
+    float: left;
+    height: 400px;
+    width: 34%;
+    padding-left: 10px;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+img{
+    height: 30px;
+    width: 130px;
+
+}
+section {
+    float: right;
+    height: 400px;
+    width: 66%;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+th{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    text-align: left;
+    padding-right: 90px;
+    padding-bottom: 20px;
+}
+
+td{
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    text-align: left;
+    padding-top: 15px;
+}
+
+footer{
+    padding-left: 10px;
+}
+
+hr{
+    width: 100%;
+}
