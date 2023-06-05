@@ -1,0 +1,85 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 400px;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    font-family: initial;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: normal;
+}
+.price{
+    margin-bottom: 160px;
+}
+
+.price aside{
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+aside h3{
+    color: rgb(-38, 177, 146);
+    font-size: 48px;
+}
+
+.price section{
+    float: right;
+    width: 49%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    border-left: black solid 1px;
+}
+.caracs{
+    text-align: center;    
+}
+.caracs p{
+    margin-top: 40px;
+    margin-left: 55px;
+    width: 300px;
+}
+.caracs ul{
+    text-align: left;
+    margin: 20px;
+    list-style-type: none;
+}
+.caracs li:nth-child(3){
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url('info.png');
+    width: 260px;
+    background-size: 20px;
+}
+§
+li{
+    margin-top: 10px;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.caracs li img{
+    background-size: 5%;
+}
+
+button{
+    width: 300px;
+    height: 60px;
+    margin-left: 60px;
+    border-radius: 10px;
+    /* border: red solid 3px; */
+    background-color: rgb(255, 123, 0);
+    color: beige;
+    font-size: 16px;
+}
